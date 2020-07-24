@@ -1,11 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>The brilliant portfolio of Augustino Przygocki</title>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -14,8 +12,9 @@
       crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
   </head>
+
   <body>
-      <!--start of navbar-->
+<!--start of navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Augustino</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,32 +53,43 @@
       </nav>
 
 <!--end of navbar-->
+   <div class="container">
 
-<!--start of jumbotron-->
-<div class="jumbotron">
-    <h1 class="display-4">Your website isn't what it could be</h1>
-    <p class="lead">Are you ready to unleash the potential?</p>
-    <hr class="my-4">
-    <p>I am a Full-Stack Web Developer. I can bring out the features you are looking for in your website. View my portfolio for ideas and get me started on your project today!</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">I love it! Let's get started.</a>
+   <div class="contact">
+       <h1>Contact</h1>
   </div>
-<!--end of jumbotron-->
-
-    <!--start of column div-->
-    <div class="container">
-        <div class="row">
-            <div class="col one">One</div>
-            <div class="col two">Two</div>
-            <div class="col three">Three</div>
-            <div class="col four">Four</div>
-        </div>
+    <div class="horrizontal divider">
+        <hr class="my-4">
     </div>
-    <!--end of column div-->
+    <br>
+    <form> 
+<div class="row"></div>
+    <div class="col-lg-12">
+        <form action="" method="POST" enctype="multipart/form-data" id="form_id">
+            <div class="form-group">
+                 <h5><label for="inputName">Name</label></h5>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
-</html>
+                <input type="text" name="career[name]" class="form-control" tabindex="1" placeholder="Enter your name" pattern="[a-zA-Z. ]{1,50}" required>
+            </div>
+            <div class="form-group">
+                 <h5><label for="inputEmail">Email</label></h5>
+
+                <input type="email" name="career[email]" class="form-control" tabindex="2" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                 <h5><label for="inputMobile">Mobile</label></h5>
+
+                <input type="tel" name="career[mobile]" class="form-control" tabindex="3" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10" required>
+            </div>
+            <div class="form-group">
+                 <h5><label for="inputMessage">Message</label></h5>
+
+                <textarea name="career[message]" class="form-control" tabindex="4"
+          placeholder="Write your details" required></textarea>
+            <button type="submit" name="submit" class="btn btn-primary btn-block" tabindex="5">Submit</button>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+</form>
