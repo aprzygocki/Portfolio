@@ -3,17 +3,17 @@
   height: 100%;
 }
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: grey;
-    color: white;
-    text-align: center;
-  }
-  /* Container class maintains space between footer and bottom of last container
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+/* Container class maintains space between footer and bottom of last container
     note -page content must be within a container */
 
 .container {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }

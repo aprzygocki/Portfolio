@@ -1,100 +1,161 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Portfolio Slides</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <!--start of navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="http://augustino.us/">Augustino</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.facebook.com/augustino.przygocki.5">My Facebook</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Projects
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="portfolio.html">View Corporate Projects</a>
-                <a class="dropdown-item" href="portfolio.html">View Personal Projects</a>
-                <a class="dropdown-item" href="portfolio.html">View Games</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="portfolio.html">View Client List</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="https://www.linkedin.com/in/augustino-przygocki-4aa94a21/" tabindex="-1" aria-disabled="false">Top-Secret Projects</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+    <!--start of navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="http://augustino.us/">Augustino</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.facebook.com/augustino.przygocki.5"
+              >My Facebook</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="portfolio.html"
+                >View Corporate Projects</a
+              >
+              <a class="dropdown-item" href="portfolio.html"
+                >View Personal Projects</a
+              >
+              <a class="dropdown-item" href="portfolio.html">View Games</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="portfolio.html"
+                >View Client List</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="https://www.linkedin.com/in/augustino-przygocki-4aa94a21/"
+              tabindex="-1"
+              aria-disabled="false"
+              >Top-Secret Projects</a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
 
     <!--end of navbar-->
     <!-- Start of slider carousel -->
-<div class="container">
-  <h1>Portfolio</h1>
-  <hr class="my-4" />
+    <div class="container">
+      <h1>Portfolio</h1>
+      <hr class="my-4" />
 
-  <div id="demo" class="carousel slide" data-ride="carousel">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
 
-    <!-- Indicators -->
-    <ul class="carousel-indicators">
-      <li data-target="#demo" data-slide-to="0" class="active"></li>
-      <li data-target="#demo" data-slide-to="1"></li>
-      <li data-target="#demo" data-slide-to="2"></li>
-    </ul>
-    
-    <!-- The slideshow -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://bluechipwebdesign.com/wp-content/uploads/2018/10/Website-Design-Companya.jpg" alt="web languages image" width="1100" height="500">
-      </div>
-      <div class="carousel-item">
-        <img src="https://www.umbrellaconsultants.com/files/resources/outer-banks-web-development-hosting.jpg" alt="Script page" width="1100" height="500">
-      </div>
-      <div class="carousel-item">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQVT--ZyiWO072YPwUPqesXuUgTSeLNFNKNvQ&usqp=CAU" alt="Web Design" width="1100" height="500">
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://bluechipwebdesign.com/wp-content/uploads/2018/10/Website-Design-Companya.jpg"
+              alt="web languages image"
+              width="1100"
+              height="500"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.umbrellaconsultants.com/files/resources/outer-banks-web-development-hosting.jpg"
+              alt="Script page"
+              width="1100"
+              height="500"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQVT--ZyiWO072YPwUPqesXuUgTSeLNFNKNvQ&usqp=CAU"
+              alt="Web Design"
+              width="1100"
+              height="500"
+            />
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
     </div>
-    
-    <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-  </div>
-</div>
-  <!-- end of slider carousel -->
-<!-- end of container -->
-<!-- start of sticky footer -->
-<div class="footer">
-  <p>&copy; Augustino Przygocki</p>
-</div>
-<!-- end of sticky footer -->
-</body>
+    <!-- end of slider carousel -->
+    <!-- end of container -->
+    <!-- start of sticky footer -->
+    <div class="footer">
+      <p>&copy; Augustino Przygocki</p>
+    </div>
+    <!-- end of sticky footer -->
+  </body>
 </html>
