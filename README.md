@@ -1,3 +1,39 @@
+My process was kindof all over the place in this project but I think I brought it in.
+
+Process:
+Used Bootstrap css and in house css to fine tune the page to my liking
+
+Did a lot of copy and pasting from bootstrap 
+
+Did a lot of research on stackoverflow to make it flow
+
+Referenced W3Schools for slider. which was a real pain but I really wanted it
+
+Committed to the github repository like a mad man and realized I need to refine my process and these commits would be a pain to sort out. 
+
+Killed the sticky footer! thanks stackoverflow
+
+Linked like crazy to my social media accounts even linkedin where I am a secret agent
+
+Used W3C Markup Validation Service to ensure error free html code
+
+Seriously worked my brain on this one.
+
+Thanks for your review and feedback!
+
+
+
+
+
+
+
+
+
+
+
+
+
+#here is the assignment
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
