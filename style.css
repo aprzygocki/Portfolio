@@ -7,3 +7,9 @@
     color: white;
     text-align: center;
   }
+  /* Container class maintains space between footer and bottom of last container
+    note -page content must be within a container */
+
+.container {
+    padding-bottom: 50px;
+}
